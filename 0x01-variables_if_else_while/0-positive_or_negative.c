@@ -1,12 +1,10 @@
 #include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <time>
 #include <stdio.h>
-/* betty style doc for function main goes there */
 /**
- * main = THis is the main
+ * main - THis is the main
  *
- * Return = will be 0
+ * Return: will be 0
  */
 int main(void)
 
@@ -19,11 +17,12 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if ( n == 0)
-	{ 
+	else if (n == 0)
+	{
 		printf("%d is zero\n", n);
 	}
-	else{
+	else
+	{
 		printf("%d is negative\n", n);
 	}
 	return (0);
