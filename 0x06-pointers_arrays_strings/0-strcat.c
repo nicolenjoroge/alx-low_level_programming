@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * *_strcat-entry
+ * _strcat-entry
  * @dest: para
- * @src:para
+ * @src: para
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
-	while (dest[index])
+	while (dest[index++])
 	{
 		dest_len++;
 	}
@@ -18,7 +18,6 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[dest_len++] = src[index];
 	}
-
 	return (dest);
 }
 
