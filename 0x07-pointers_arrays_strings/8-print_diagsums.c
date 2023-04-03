@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums: sum of a square
+ * print_diagsums - sum of a square
  * @a: has dimensions
  * @size: size of square
  * Return: 0
